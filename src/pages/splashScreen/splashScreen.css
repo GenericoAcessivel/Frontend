@@ -1,0 +1,30 @@
+.content-splash {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text-splash {
+    color: #db471b;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+  
+  .text-splash.show {
+    opacity: 1;
+  }
+  
+  .img-splash {
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+    width: 9rem;
+  }
+  
+  .img-splash.show {
+    opacity: 1;
+  }
+  
